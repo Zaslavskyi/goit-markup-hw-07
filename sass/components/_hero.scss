@@ -50,19 +50,20 @@
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-delay: 0;
+    &:hover {
+            background-color: var(--button-push-active);
+        }
+    
+    &:focus {
+            background-color: var(--button-push-active);
+        }
+    
+    &:active {
+            background-color: var(--button-push-active);
+        }
 }
 
-.button__push:hover {
-    background-color: var(--button-push-active);
-}
 
-.button__push:focus {
-    background-color: var(--button-push-active);
-}
-
-.button__push:active {
-    background-color: var(--button-push-active);
-}
 
 .order__button {
     font-weight: 700;

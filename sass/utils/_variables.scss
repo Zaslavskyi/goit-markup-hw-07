@@ -38,3 +38,10 @@
     --filter-text-color: #ffffff;
 
 }
+
+body {
+    font-family: 'Roboto';
+    font-style: normal;
+    color: var(--background-color1);
+    background: var(--background-color2);
+}

@@ -65,20 +65,10 @@
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-delay: 0;
-}
-
-.social__link:hover,
-.social__link:focus {
-    background-color: var(--button-push-active);
-}
-
-
-.social__link:hover .social__icon {
-    fill: var(--team-list-background);
-}
-
-.social__link:focus .social__icon {
-    fill: var(--team-list-background);
+&:hover,
+&:focus {
+        background-color: var(--button-push-active);
+    }
 }
 
 .social__icon {
@@ -87,4 +77,10 @@
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-delay: 0;
+    .social__link:hover & {
+            fill: var(--team-list-background);
+        }
+    .social__link:focus & {
+            fill: var(--team-list-background);
+        }
 }
