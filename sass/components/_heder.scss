@@ -35,7 +35,7 @@
             bottom: -1px;
             transition: opacity 250ms var(--button-push-background);
         }
-        &&.current {
+        &.current {
         color: var(--button-push-background);
         }
         &:hover {

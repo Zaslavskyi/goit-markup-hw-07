@@ -15,11 +15,9 @@
 .filter__border {
     background: #FFFFFF;
     flex-basis: calc((100% - 60px) / 3);
-    & {
-            min-width: 370px;
-            background-color: var(--background-color2);
-        }
-}
+    min-width: 370px;
+    background-color: var(--background-color2);
+    }
 
 /*
 .filter-border:hover .filter-text {
